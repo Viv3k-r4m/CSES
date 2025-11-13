@@ -1,0 +1,5 @@
+a=int(input().strip())
+b=list(map(int,input().strip().split()))
+b.sort()
+c=set(b)
+print(len(c))
